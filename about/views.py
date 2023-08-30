@@ -14,3 +14,10 @@ def about_me(request, *args, **kwargs):
             "about": about
         },
     )
+
+
+def welcome(request):
+    """
+    Renders the Welcome page
+    """
+    return render(request ,"welcome.html")

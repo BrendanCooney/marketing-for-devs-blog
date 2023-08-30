@@ -1,12 +1,33 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Devmark Logo](https://res.cloudinary.com/dulvjkxha/image/upload/v1693231987/Devmark_Logo1_noertw.png)
 
-Welcome BrendanCooney,
+# Devmark -Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+DevMark Introduction
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+DevMark is a blog that is designed for Developers who have no marketing skills. Our posts get developers thinking about how to get their new products out there once they have been created and deployed. 
 
-## Gitpod Reminders
+
+
+## Technologies Used
+
+1. Gitpod IDE
+2. Python3
+3. HTML
+4. JavaScript
+5. CSS
+6. Postgres 
+7. Heroku
+8. Canva
+9. Paint.net
+10. Chat GPT
+
+
+## Gitpod
+Gitpod has been my chosed IDE. Nearly went with VSCode however stuck with Gitpod for the Purposes of this project. I have found it works well with Heroku and other applications. It was way faster than CodeAnywhere. 
+
+## Python3
+Thi project and all the recent walk throughs we have done at the code Institute have been created in Python. I am still getting used to it. 
+
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
