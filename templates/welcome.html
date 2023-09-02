@@ -13,14 +13,45 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="https://res.cloudinary.com/dulvjkxha/raw/upload/v1693381317/static/aboutcss/landcss_g0l6uf.css" rel="stylesheet">
+        <link href="https://res.cloudinary.com/dulvjkxha/raw/upload/v1693680412/static/aboutcss/aboutstyles_k9qvy0.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="{% url 'home' %}">Devmark</a>
-                <a class="btn btn-primary" href="{% url 'home' %}">Enter Site</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">Devmark</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'welcome' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'home' %}">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about' %}">About</a>
+                        </li>
+                        {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    <span class="navbar-text text-muted">
+                        <strong>Tips For Developers</strong>
+                    </span>
+                </div>
             </div>
         </nav>
         <!-- Masthead-->
@@ -30,7 +61,10 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">A marketing guide for Web Developers!</h1>
+                            <span style="text-transform:uppercase">
+                                <h1 class="mb-5 uppercase">Devmark</h1>
+                                <h3 class="mb-5 uppercase">Your complete Marketing Guide for Web Developers</h3>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -68,21 +102,21 @@
         <section class="showcase">
             <div class="container-fluid p-0">
                 <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693267481/Pics/bg-showcase-1_lsyh7b.jpg')"></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693680014/Pics/DevLandStrat_hskg1h.png')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Define your Marketing Strategy</h2>
                         <p class="lead mb-0">A good strategy is part of the recipe for success when it comes to digital marketing. Learn from experienced experts by joining our community. </p>
                     </div>
                 </div>
                 <div class="row g-0">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693267480/Pics/bg-showcase-2_akwpdr.jpg')"></div>
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693671777/Pics/DmLanding1_ajtla9.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Promote Your Product Online</h2>
                         <p class="lead mb-0">Learn the fundamentals of how to reach your audience. Devmark will give you information on current promotion tactics.</p>
                     </div>
                 </div>
                 <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693267479/Pics/bg-showcase-3_zim124.jpg')"></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://res.cloudinary.com/dulvjkxha/image/upload/v1693671777/Pics/DmLanding3_yhy1om.jpg')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Connect with a Community</h2>
                         <p class="lead mb-0">Connect with like minded Developers and discuss relevant Development and Marketing while overcoming obstacles.</p>
@@ -127,7 +161,7 @@
                        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
                             <div class="row">
                                 <div class="mb-4">
-                                    <button class="btn btn-primary" href="{% url 'home' %}"> Register</button>
+                                    <a href="{% url 'home' %}" class="btn btn-primary" role="button">Register</a>
                                 </div>
                             </div>
                     </div>

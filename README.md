@@ -1,4 +1,4 @@
-![Devmark Logo](https://res.cloudinary.com/dulvjkxha/image/upload/v1693231987/Devmark_Logo1_noertw.png)
+![Devmark Logo](https://res.cloudinary.com/dulvjkxha/image/upload/v1693680885/Pics/Devmark_Logo1_anpfar.png)
 
 # Devmark -Introduction
 
@@ -7,6 +7,7 @@ DevMark Introduction
 DevMark is a blog that is designed for Developers who have no marketing skills. Our posts get developers thinking about how to get their new products out there once they have been created and deployed. 
 
 ## Responsive Layout:
+![Responsive Image](https://res.cloudinary.com/dulvjkxha/image/upload/v1693680842/Pics/DMResponsive_mvrlpn.png)
 
 ## Methodology:
 This project has been approached with an Agile methodology. All steps taken in the in the project were based on User Stories and applying the MVC (Model-View-Controller) framework strategy.  
@@ -64,12 +65,27 @@ Paint.Net was used to resize the blog images to keep them unifom
 Chat GPT was used to create the actual Blog content. The reason for this is that I would like to show my felllow students that creating content that can be a good base for posts is something Chat GPT and similar products can help with. 
 
 ## Cloudinary
-Cloudinary was used to host the images and static files of the project
+Cloudinary was used to host the images and static files of the project linking up the images and stylesheets. 
 
 
 # Design
 
-1. Colours
+1. Colours 
+    The colour format has been using the Bootstrap Standard button colour blue as the primary colour along with white. 
 2. Typograpy
 3. Images
+    The images have been taken from a Bootstrap Template and Canva. 
 4. Wireframes
+
+
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
+
+## Example
+## Example2
+## Third Example
+## [Fourth Example](http://www.fourthexample.com) 
