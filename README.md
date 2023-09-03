@@ -4,7 +4,7 @@
 
 DevMark Introduction
 
-DevMark is a blog that is designed for Developers who have no marketing skills. Our posts get developers thinking about how to get their new products out there once they have been created and deployed. 
+DevMark is a blog that is designed for Developers who have no marketing skills. Our posts get developers thinking about how to get their new products out there once they have been created and deployed. This is the base of a project that I would like to expand on with many more posts to help developers when they are at the level of producing a great product. 
 
 View Live:
 [Devmark Site](https://devmark-073af775bfae.herokuapp.com/)
@@ -93,3 +93,23 @@ This is a view of the posts page wireframe if you click on the blog link:
 This is a view of the Blog Post Wireframe if someone is reading a post:
 
 ![Article Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1693730370/Pics/Wireframes/Blog_Post_View_juhkmg.png)
+
+This is a view if the project Layout as I understand it:
+![Project Layout](https://res.cloudinary.com/dulvjkxha/image/upload/v1693737436/Pics/Wireframes/Project_Layout_aqqstq.png)
+
+## Custom Models
+When adding custom Models I followed the Seminar for the CRUD that Matt Did.
+
+I had many problems with this but did get the delete and edit buttons working with the help of Student Support. 
+
+I also Added an extra featured image and excerpt field to the about model as an experiment. Both worked and can be seen on the about page.  
+
+### Testing
+All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. 
+
+### References 
+This Blog project used the Codestar Project as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat to quickly produce the articles which were slightly ammended by myself. 
+
+Thank you to the Code Institute for the opportinty 
+
+
