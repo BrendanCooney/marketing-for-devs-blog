@@ -108,7 +108,7 @@ I also Added an extra featured image and excerpt field to the about model as an 
 All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. 
 
 ### References 
-This Blog project used the Codestar Project as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat to quickly produce the articles which were slightly ammended by myself. 
+This Blog project used the Codestar Project by the code institute as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat GPT to quickly produce the articles which were slightly ammended by myself. 
 
 Thank you to the Code Institute for the opportinty 
 
