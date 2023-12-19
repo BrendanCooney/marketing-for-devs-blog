@@ -107,6 +107,32 @@ I also Added an extra featured image and excerpt field to the about model as an 
 ### Testing
 All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. 
 
+### Deployment 
+The Development plan of this project was to install all the required libraries and deploy to Heroku early. Using this strategy the aim would be leave less room for error with a larger smaller project rather than a larger project at the end. 
+
+### ElephantSQL Database
+This project uses ElephantSQL for the PostgreSQL Database.
+
+To obtain your own Postgres Database, sign-up with your GitHub account, then follow these steps:
+
+- Click Create New Instance to start a new database.
+- Provide a name (this is commonly the name of the project: retro-reboot).
+- Select the Tiny Turtle (Free) plan.
+- You can leave the Tags blank.
+- Select the Region and Data Center closest to you.
+- Once created, click on the new database name, where you can view the database URL and Password.
+
+### Cloudinary Static File hosting
+The static Files of the project are hosted in Cloudinary. 
+
+### Heroku Deployment
+This project uses Heroku, a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+
+Deployment steps are as follows, after account setup:
+- Select New in the top-right corner of your Heroku Dashboard, and select Create new app from the dropdown menu.
+- Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select Create App.
+- From the new app Settings, click Reveal Config Vars, and set your environment variables.
+
 ### References 
 This Blog project used the Codestar Project by the code institute as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat GPT to quickly produce the articles which were slightly ammended by myself. 
 
