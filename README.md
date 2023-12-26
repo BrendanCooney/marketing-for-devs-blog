@@ -15,6 +15,13 @@ View Live:
 ## Methodology:
 This project has been approached with an Agile methodology. All steps taken in the in the project were based on User Stories and applying the MVC (Model-View-Controller) framework strategy.  
 
+## User Stories: 
+To help with the development of this project, I created user stories to map out tasks I needed to achieve in order to build the website to a good standard. I further split these user stories into epics in order to take an agile approach to its development.
+
+View a full list of user stories 	[here](https://github.com/BrendanCooney/marketing-for-devs-blog/issues)
+
+Here is a graphical representation of how the user stories were worked on in GitHub's projects section on the Canban board. All user stories were completed. 
+![DevMark User Stories](https://res.cloudinary.com/dulvjkxha/image/upload/v1703623172/Pics/UserStoriesImage1_ty7dne.png)
 
 ## Technologies Used:
 
