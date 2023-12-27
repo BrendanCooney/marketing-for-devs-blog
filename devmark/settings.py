@@ -29,11 +29,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-brendancoon-marketingfo-ivmuggd5lko.ws-eu104.gitpod.io','devmark.herokuapp.com', 'localhost', 'devmark-073af775bfae.herokuapp.com']
+ALLOWED_HOSTS = ['8000-brendancoon-marketingfo-ivmuggd5lko.ws-eu107.gitpod.io','devmark.herokuapp.com', 'localhost', 'devmark-073af775bfae.herokuapp.com']
 
 
 # Application definition
