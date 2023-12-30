@@ -10,11 +10,10 @@ class ToolsList(generic.ListView):
     template_name = 'tools.html'
     paginate_by = 6
 
-"""
-def tools(request: HttpRequest) -> HttpResponse:
-    Tools = Tools.objects.all()
-    for tools in tools:
-        rating = Rating.objects.filter(post=post, user=request.user).first()
-        tools.user_rating = rating.rating if rating else 0
-    return render(request, "tools.html", {"tools": tools})
-"""
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        tool_list = context['object_list']
+        ratings = [tool.average_rating() for tool in tool_list]
+        context['ratings'] = ratings
+        return context
+

@@ -140,3 +140,10 @@ body {
     background: transparent;
     border: none;
 }
+
+/* Style for star icons */
+.card-rating i {
+    color: gold;  /* Change the color as needed */
+    font-size: 1.2em;  /* Adjust the font size as needed */
+    margin-right: 2px;  /* Adjust the margin between stars as needed */
+}
