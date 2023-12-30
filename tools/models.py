@@ -20,10 +20,10 @@ class Tools(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
 
     def average_rating(self) -> float:
-        return Rating.objects.filter(post=self).aggregate(Avg("rating"))["rating__avg"] or 0
+        return Rating.objects.filter(tools=self).aggregate(Avg("rating"))["rating__avg"] or 0
 
     def __str__(self):
-        return f"{self.header}: {self.average_rating()}"
+        return f"{self.name}: {self.average_rating()}"
 
 
    
@@ -33,4 +33,4 @@ class Rating(models.Model):
     rating = models.IntegerField(default=0)
 
     def __str__(self):
-        return f"{self.post.header}: {self.rating}"
+        return f"{self.tools.name}: {self.rating}"
