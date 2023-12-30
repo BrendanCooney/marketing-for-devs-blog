@@ -10,18 +10,11 @@ class ToolsList(generic.ListView):
     template_name = 'tools.html'
     paginate_by = 6
 
-
-#def about_me(request, *args, **kwargs):
-#    """
-#    Renders the About page
-#    """
-#    tools = Tools.objects.all().first()
-
-#    return render(
-#        request,
-#        "tools.html",
-#        {
-#            "tools": tools
-#        },
-#    )
-
+"""
+def tools(request: HttpRequest) -> HttpResponse:
+    Tools = Tools.objects.all()
+    for tools in tools:
+        rating = Rating.objects.filter(post=post, user=request.user).first()
+        tools.user_rating = rating.rating if rating else 0
+    return render(request, "tools.html", {"tools": tools})
+"""
