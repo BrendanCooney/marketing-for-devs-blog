@@ -112,7 +112,7 @@ I had many problems with this but did get the delete and edit buttons working wi
 I also Added an extra featured image and excerpt field to the about model as an experiment. Both worked and can be seen on the about page.  
 
 ### Testing
-All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. 
+All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. please refer to the [TESTING](TESTING.md) file for more information.
 
 ### Deployment 
 The Development plan of this project was to install all the required libraries and deploy to Heroku early. Using this strategy the aim would be leave less room for error with a larger smaller project rather than a larger project at the end. 

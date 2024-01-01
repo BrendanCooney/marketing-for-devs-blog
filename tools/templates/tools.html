@@ -17,16 +17,16 @@
                                 <img class="card-img-top"
                                     src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ tools.featured_image.url }}">
+                                <img class="card-img-top" src=" {{ tools.featured_image.url }}" alt="{{tools.name}}">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ tools.author }}</p>
                                 </div>
                             </div>
                             <a href="#" class="tools">
-                                <h2 class="card-title">{{ tools.title }}</h2>
+                                <h2 class="card-title">{{ tools.name }}</h2>
                                 <p class="card-text">{{ tools.excerpt }}</p>
-                                <p class="card-rating">Average Rating: {{ tools.average_rating }}</p>
+                                <p class="card-rating">Average Rating: {{ tools.average_rating }}<i class="fa-solid fa-star"></i></p>
                                 <p>Tool Ratings by Users</p>
                                 <ul>
                                     {% for rating in tools.rating_set.all %}
@@ -34,8 +34,9 @@
                                     {% endfor %}
                                 </ul>
                             </a>
-                            <hr />
-                            <p class="card-text text-muted h6">{{ tools.created_on}}</p>
+                            <hr>
+                            <p class="card-text text-muted h6">{{ tools.created_on }}</p>
+                            
                         </div>
                     </div>
                 </div>
