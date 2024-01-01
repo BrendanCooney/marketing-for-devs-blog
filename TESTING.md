@@ -14,4 +14,11 @@ I have validated all of my code using the recommended tools for each language.
 ![Login Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1704133059/Testing%20Images/Login_Page_Validator_up8kjz.png)
 ![Signup Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1704133059/Testing%20Images/Signup_Page_Validator_f3loqx.png)
 
+### CSS:
+
+### JavaScript: 
+I have used the recommended JShint Validator to validate all of my JS files.
+In this file there are warnings but no errors. 
+
+![Javascript Comments](https://res.cloudinary.com/dulvjkxha/image/upload/v1704144108/Testing%20Images/JavaScript_Comments_wd4oig.png)
 
