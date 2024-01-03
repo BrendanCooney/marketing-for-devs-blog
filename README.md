@@ -20,7 +20,8 @@ To help with the development of this project, I created user stories to map out 
 
 View a full list of user stories 	[here](https://github.com/BrendanCooney/marketing-for-devs-blog/issues)
 
-Here is a graphical representation of how the user stories were worked on in GitHub's projects section on the Canban board. All user stories were completed. 
+Here is a graphical representation of how the user stories were worked on in GitHub's projects section on the Canban board. All user stories were completed. To see a full list of all user stories and tests done for the user stories please see the [TESTING](TESTING.md) File.
+
 ![DevMark User Stories](https://res.cloudinary.com/dulvjkxha/image/upload/v1703623172/Pics/UserStoriesImage1_ty7dne.png)
 
 ## Technologies Used:
@@ -38,6 +39,7 @@ Here is a graphical representation of how the user stories were worked on in Git
 11. Chat GPT
 12. Cloudinary
 13. Bootstrap
+14. Balsamic
 
 
 
@@ -76,7 +78,8 @@ Paint.Net was used to resize the blog images to keep them unifom
 Chat GPT was used to create the actual Blog content. The reason for this is that I would like to show my fellow students that creating marketing content that can be a good base for posts is something Chat GPT and similar products can help with. 
 
 ## Cloudinary
-Cloudinary was used to host the images and static files of the project linking up the images and stylesheets. 
+Cloudinary was used to host the images and static files of the project linking up the images and stylesheets.
+![Cloudinary](https://res.cloudinary.com/dulvjkxha/image/upload/v1704235941/Testing%20Images/Cloudinary_Screenshot_adbzlg.png) 
 
 ## Bootsrap
 Using Bootstrap has been an fundamental part of the entire website application. The Landing Page was taken from Start Bootstrap and was adatpted and changed with images from Canva to suit the project. 
