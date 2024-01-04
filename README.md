@@ -107,12 +107,22 @@ This is a view of the Blog Post Wireframe if someone is reading a post:
 This is a view if the project Layout as I understand it:
 ![Project Layout](https://res.cloudinary.com/dulvjkxha/image/upload/v1693737436/Pics/Wireframes/Project_Layout_aqqstq.png)
 
-## Custom Models
-When adding custom Models I followed the Seminar for the CRUD that Matt Did.
+## Models
+In this project there are three apps, each have their own different models. 
+The Blog app models come from the Codestar Blog project and don't have muc deviation. The About app model was created by following an extra seminar suggested by the Code Institite. The third app is the Tools app. I wanted to highlight some decent marketing and sales tools for developers to use and provide a rating for them. At this stage of development. Only admins can rate the software being used. 
+With further development all users could add to the rating. Below are images of how the models are represented. 
 
-I had many problems with this but did get the delete and edit buttons working with the help of Student Support. 
+Blog App: Project Model
 
-I also Added an extra featured image and excerpt field to the about model as an experiment. Both worked and can be seen on the about page.  
+![Blog Model](https://res.cloudinary.com/dulvjkxha/image/upload/v1704395887/Models/Blog_Model_Devmark_ydlas6.jpg)
+
+About App: Custom Model
+
+![About Model](https://res.cloudinary.com/dulvjkxha/image/upload/v1704395887/Models/Devmark_About_Model_saayqz.jpg)
+
+Tools App: Custom Model
+
+![Tools Model](https://res.cloudinary.com/dulvjkxha/image/upload/v1704395887/Models/Tools_App_Models_oogrkh.jpg)
 
 ### Testing
 All testing througout the project has been done on a manual testing basis using a MVC framework. From Html, CSS, Javascript, Python3 and Django all work to produce the result has used manual testing. please refer to the [TESTING](TESTING.md) file for more information on the testing processes used.
