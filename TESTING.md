@@ -32,3 +32,23 @@ Blog Page Desktop:
 Blog Page Mobile:
 ![Blog Page Mobile](https://res.cloudinary.com/dulvjkxha/image/upload/v1704180163/Testing%20Images/Lighthouse_Blog_pddyn0.png)
 
+## User Stories
+Below is a comprehensive list of all the user stories created in the project. I have documented all of them to show that the website as whole performs as it should. 
+
+
+User Story1: As a Site User I can view a list of posts so that I can select one to read
+
+![UserStory1](https://res.cloudinary.com/dulvjkxha/image/upload/v1704321221/User%20Stories/UserStory1_acybvl.png)
+![Blog Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1704321398/User%20Stories/screencapture-8000-brendancoon-marketingfo-ivmuggd5lko-ws-eu107-gitpod-io-blog-2024-01-03-22_35_36_gyqsy5.png)
+
+User Story2: As a Site User I can click on a post so that I can read the full text
+![UserStory2](https://res.cloudinary.com/dulvjkxha/image/upload/v1704322188/User%20Stories/UserStory2_cyaewq.png)
+![PostDetail](https://res.cloudinary.com/dulvjkxha/image/upload/v1704322155/User%20Stories/screencapture-8000-brendancoon-marketingfo-ivmuggd5lko-ws-eu107-gitpod-io-the-benefits-of-using-google-analytics-2024-01-03-22_48_37_knl9tb.png)
+
+User Story3: As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral
+![UserStory3](https://res.cloudinary.com/dulvjkxha/image/upload/v1704323155/User%20Stories/UserStory3_xja5p7.png)
+![BlogPageView](https://res.cloudinary.com/dulvjkxha/image/upload/v1704321398/User%20Stories/screencapture-8000-brendancoon-marketingfo-ivmuggd5lko-ws-eu107-gitpod-io-blog-2024-01-03-22_35_36_gyqsy5.png)
+
+User Story4: As a Site User / Admin I can view comments on an individual post so that I can read the conversation
+![UserStory4](https://res.cloudinary.com/dulvjkxha/image/upload/v1704323623/User%20Stories/UserStory4_m3fwyd.png)
+![CommentsView](https://res.cloudinary.com/dulvjkxha/image/upload/v1704322155/User%20Stories/screencapture-8000-brendancoon-marketingfo-ivmuggd5lko-ws-eu107-gitpod-io-the-benefits-of-using-google-analytics-2024-01-03-22_48_37_knl9tb.png)
