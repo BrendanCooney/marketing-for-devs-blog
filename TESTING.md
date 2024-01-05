@@ -25,6 +25,28 @@ In this file there are warnings but no errors.
 
 ![Javascript Comments](https://res.cloudinary.com/dulvjkxha/image/upload/v1704144108/Testing%20Images/JavaScript_Comments_wd4oig.png)
 
+### Python Linting
+#### Blog App:
+These are the relevant python files in the Blog App; Admin.py file, Models.py File, Blog Forms File, Blog Views File:
+![Admin File](https://res.cloudinary.com/dulvjkxha/image/upload/v1704445093/User%20Stories/about_blog_eph891.png)
+![Blog Models](https://res.cloudinary.com/dulvjkxha/image/upload/v1704448807/User%20Stories/blog_models_ujxz1a.png)
+![Blog Forms](https://res.cloudinary.com/dulvjkxha/image/upload/v1704449055/User%20Stories/blof_forms_bmmowu.png)
+![Blog Views](https://res.cloudinary.com/dulvjkxha/image/upload/v1704451695/User%20Stories/blog_views_am1uws.png)
+![Blog Urls](https://res.cloudinary.com/dulvjkxha/image/upload/v1704451815/User%20Stories/blog_urls_yycctg.png)
+
+#### About App
+These are the relevant files in the about App: Models, Urls & Views:
+![About Model](https://res.cloudinary.com/dulvjkxha/image/upload/v1704452288/User%20Stories/about_models_rwxkik.png)
+![About Urls](https://res.cloudinary.com/dulvjkxha/image/upload/v1704452428/User%20Stories/about_urls_vqngh2.png)
+![About Views](https://res.cloudinary.com/dulvjkxha/image/upload/v1704452560/User%20Stories/about_views_mia2cd.png)
+
+#### The Tools App
+These are the relevant files in the Tools App: Models, Urls & Views:
+![Tools Model](https://res.cloudinary.com/dulvjkxha/image/upload/v1704453438/User%20Stories/Tools_Model_a6o4w4.png)
+![Tools Urls](https://res.cloudinary.com/dulvjkxha/image/upload/v1704453555/User%20Stories/Tools_views_xrzfxz.png)
+![tools Views](https://res.cloudinary.com/dulvjkxha/image/upload/v1704453918/User%20Stories/tools_views_real_nh80sn.png)
+
+
 ### Lighthouse Developer Tools
 Home Page Desktop:
 ![Homepage Desktop](https://res.cloudinary.com/dulvjkxha/image/upload/v1704180162/Testing%20Images/Light_House_Home_Desktop_i9ukz7.png)
@@ -125,3 +147,10 @@ As a user I can arrive on the site landing page so that I can see what the site 
 
 ![UserStory15](https://res.cloudinary.com/dulvjkxha/image/upload/v1704410728/User%20Stories/UserStory15_bp3l7b.png)
 ![Landing Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1704406740/User%20Stories/LandingPage_fb7umg.png)
+
+### User Story16:
+As a user I can arrive on the site landing page so that I can see what the site has to offer
+
+![UserStory16](https://res.cloudinary.com/dulvjkxha/image/upload/v1704454785/User%20Stories/Tools_yliccu.png)
+![tools page](https://res.cloudinary.com/dulvjkxha/image/upload/v1704454784/User%20Stories/Tools_and_rating_mbj8ug.png)
+

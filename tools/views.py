@@ -1,8 +1,10 @@
-from django.shortcuts import render, get_object_or_404, reverse, HttpResponse, redirect
+from django.shortcuts import (render, get_object_or_404,
+                              reverse, HttpResponse, redirect)
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.contrib import messages
 from .models import Tools, Rating
+
 
 class ToolsList(generic.ListView):
     model = Tools
@@ -17,16 +19,10 @@ class ToolsList(generic.ListView):
         context['ratings'] = ratings
         return context
 
+
 def tools_detail(request, slug, *args, **kwargs):
     """
-    A function-based view to view the detail of a post.
-    Largely the same as the class-based, but we don't have
-    different methods for GET and POST. Because it's not a
-    class, all of the extra "self" stuff is removed too.
-
-    Functionally, it's the same, but it is a bit clearer
-    what's going on. To differentiate between request methods,
-    we use request.method == "GET" or request.method == "POST"
+    A function-based view to view the detail of a tools.
     """
 
     queryset = Tools.objects.filter(status=1)
