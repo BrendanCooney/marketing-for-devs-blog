@@ -114,6 +114,7 @@ This is a view of the Blog Post Wireframe if someone is reading a post:
 ![Article Page](https://res.cloudinary.com/dulvjkxha/image/upload/v1693730370/Pics/Wireframes/Blog_Post_View_juhkmg.png)
 
 This is a view if the project Layout as I understand it:
+This has been there have been changes made to this plan with the addition of the model application shown in the models section. 
 ![Project Layout](https://res.cloudinary.com/dulvjkxha/image/upload/v1693737436/Pics/Wireframes/Project_Layout_aqqstq.png)
 
 ## Models
@@ -164,6 +165,10 @@ Deployment steps are as follows, after account setup:
 
 ### References 
 This Blog project used the Codestar Project by the code institute as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat GPT to quickly produce the articles which were slightly ammended by myself.
+
+### Bugs
+I would stll like to rework my models drawing and perfect my tools detail view. 
+
 
 Creating the Tools and Rating model relied on the guidelines of this Blog Post:
 https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c
