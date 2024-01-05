@@ -15,6 +15,11 @@ View Live:
 ## Methodology:
 This project has been approached with an Agile methodology. All steps taken in the in the project were based on User Stories and applying the MVC (Model-View-Controller) framework strategy.  
 
+## UX
+I wanted to colours used to be easy on the eye. The theme that has been used incorporates shades of blue, white and grey. The Landing page gives the blog a modern and creative effect. The look and feel is positive, uplifting with minmal text on the landing page. 
+
+![Colour Pallette](https://res.cloudinary.com/dulvjkxha/image/upload/v1704412629/User%20Stories/Colour_Pallete_lq3jjm.png)
+
 ## User Stories: 
 To help with the development of this project, I created user stories to map out tasks I needed to achieve in order to build the website to a good standard. I further split these user stories into epics in order to take an agile approach to its development.
 
@@ -40,6 +45,7 @@ Here is a graphical representation of how the user stories were worked on in Git
 12. Cloudinary
 13. Bootstrap
 14. Balsamic
+15. Summernote
 
 
 
@@ -88,6 +94,9 @@ Using Bootstrap has been an fundamental part of the entire website application. 
 This entire project was build with Python and Django and integrating them with HTML, CSS and Javascript. 
 Building with Django has been a great experiece. As I have come to the end of the project I realise just how powerful Django is.
 The Admin Panel and apps make it quick and easy for users once it has been deployed corectly. 
+
+## Summernote
+Summernote was installed to allow the Django Admin Dashboard to use a WYSIWYG Editor for posts. 
 
 ## Wireframes
 These wireframes were created in Balsamic. 
@@ -143,7 +152,7 @@ To obtain your own Postgres Database, sign-up with your GitHub account, then fol
 - Once created, click on the new database name, where you can view the database URL and Password.
 
 ### Cloudinary Static File hosting
-The static Files of the project are hosted in Cloudinary. 
+The static Files of the project are hosted in Cloudinary. In order to do this cloudinary had to be installed and a cloudinary account had to be opened. 
 
 ### Heroku Deployment
 This project uses Heroku, a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
@@ -154,7 +163,11 @@ Deployment steps are as follows, after account setup:
 - From the new app Settings, click Reveal Config Vars, and set your environment variables.
 
 ### References 
-This Blog project used the Codestar Project by the code institute as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat GPT to quickly produce the articles which were slightly ammended by myself. 
+This Blog project used the Codestar Project by the code institute as a base. I wanted to change the content and the way the website was repersented so the landing page was added. The Landing page used a template from Start Bootstrap. Canva was used for the images and as an example Chat GPT to quickly produce the articles which were slightly ammended by myself.
+
+Creating the Tools and Rating model relied on the guidelines of this Blog Post:
+https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c
+
 
 Thank you to the Code Institute for the opportinty 
 

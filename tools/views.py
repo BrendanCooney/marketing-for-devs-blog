@@ -31,6 +31,7 @@ def tools_detail(request, slug, *args, **kwargs):
 
     queryset = Tools.objects.filter(status=1)
     tools = get_object_or_404(queryset, slug=slug)
+    rating = rating
 
     return render(
         request,
